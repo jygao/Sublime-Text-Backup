@@ -1,0 +1,38 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"Anaconda",
+		"Babel",
+		"Babel Snippets",
+		"BracketHighlighter",
+		"ColorPicker",
+		"ConvertToUTF8",
+		"CTags",
+		"DocBlockr",
+		"Emmet",
+		"ES6-Toolkit",
+		"JavaScriptNext - ES6 Syntax",
+		"JsFormat",
+		"MarkdownEditing",
+		"Package Control",
+		"PackageSync",
+		"Python PEP8 Autoformat",
+		"React Development Snippets",
+		"React IDE",
+		"React Templates",
+		"ReactJS",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeREPL",
+		"SyncedSideBar",
+		"Terminal",
+		"Theme - Flatland"
+	]
+}

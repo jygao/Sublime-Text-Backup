@@ -1,0 +1,118 @@
+[
+	/*{"id": "side-bar-files-open-with",
+		"children":
+		[
+
+			//application 1
+			{
+				"caption": "Photoshop",
+				"id": "side-bar-files-open-with-photoshop",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Adobe Photoshop CS5.app", // OSX
+									"extensions":"psd|png|jpg|jpeg",  //any file with these extensions
+									"args":[]
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+			//separator
+			{"caption":"-"},
+
+			//application 2
+			{
+				"caption": "SeaMonkey",
+				"id": "side-bar-files-open-with-seamonkey",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Archivos de programa\\SeaMonkey\\seamonkey.exe", // WINNT
+									"extensions":"", //open all even folders
+									"args":[]
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+			//application n
+			{
+				"caption": "Chrome",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Documents and Settings\\tito\\local\\Datos de programa\\Google\\Chrome\\Application\\chrome.exe",
+									"extensions":".*", //any file with extension
+									"args":[]
+						},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+			{"caption":"-"}
+		]
+	},*/
+
+// { "caption": "tf get","command": "exec","args":{"cmd":["tf","get","$paths"]}}
+
+{
+	"caption":"tf",
+	"id":"side-bar-files-open-with",
+		"children":
+		[
+{
+	"caption": "tf get",
+	"id": "side-bar-files-open-with-tf-get",
+
+	"command": "side_bar_files_open_with",
+	"args": {
+		"paths": [],
+		"application": "tf",
+		"extensions":"",
+		"args":["get"]
+	},
+	"open_automatically" : false
+},
+{
+	"caption": "tf checkout",
+	"id": "side-bar-files-open-with-tf-checkout",
+	"command": "side_bar_files_open_with",
+	"args": {
+		"paths": [],
+		"application": "tf",
+		"extensions":"",
+		"args":["checkout"]
+	},
+	"open_automatically" : false
+},
+{
+	"caption": "tf checkin",
+	"id": "side-bar-files-open-with-tf-checkin",
+
+	"command": "side_bar_files_open_with",
+	"args": {
+		"paths": [],
+		"application": "tf",
+		"extensions":"",
+		"args":["checkin"]
+	},
+	"open_automatically" : false
+},
+{
+	"caption": "tf add",
+	"id": "side-bar-files-open-with-tf-add",
+
+	"command": "side_bar_files_open_with",
+	"args": {
+		"paths": [],
+		"application": "tf",
+		"extensions":"",
+		"args":["add"]
+	},
+	"open_automatically" : false
+}
+		]
+	}
+
+]
